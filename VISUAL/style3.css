@@ -1,0 +1,65 @@
+/* Header, logo y titulo */
+.header {
+    background-image: url(img/atardecer.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+        height: 200px;
+    }
+body {
+    background-color: rgb(49, 29, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    height: 1000px;
+}
+/* Cambiar el color cuando paso el mouse */
+.navbar a:hover {
+    background-color: #000000;
+    color: rgb(255, 146, 3);
+}
+
+/* Estilo de la barra de navegacion */
+.navbar {
+    display: flex;
+    background-color: rgb(84, 48, 3); padding: 5px;;
+}
+.contenedor2{
+    display: flex;
+    }
+    
+    .musica{
+    width: 350px;
+    margin: 10px;
+    }
+    .contenedor3{
+        display: flex;
+    }
+    .musica2{
+        width: 350px;
+        margin: 10px;
+    }
+.contenedor4{
+    display: flex;
+}
+.imagen{
+    width: 350px;
+    margin: 10px; 
+}
+.contenedor5{
+    display: flex;
+}
+.imagen2{
+    width: 350px;
+    margin: 10px; 
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    height: 1000px;
+}

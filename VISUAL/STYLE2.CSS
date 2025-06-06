@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la pagina */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+body {
+    background-color: rgb(0, 32, 14);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    height: 1000px;
+}
+/* Header, logo y titulo */
+.header {
+background-image: url(img/verde.gif);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #f1f1f1;
+    height: 200px;
+}
+
+/* Estilo de la barra de navegacion */
+.navbar {
+    display: flex;
+    background-color: rgb(2, 42, 33); padding: 5px;;
+}
+
+/* Estilo de los enlaces de la barra de navegacion */
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Cambiar el color cuando paso el mouse */
+.navbar a:hover {
+    background-color: #000000;
+    color: rgb(3, 255, 146);
+}
+
+/* Contenedor de columnas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Barra lateral */
+.side {
+    flex: 30%;
+    background-image: url(imagnes/verde2.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*Columna principal */
+.main {
+    flex: 70%;
+    background-color: rgb(2, 35, 20);
+    padding: 20px;
+}
+
+/* Imagen */
+.imagenfalsa {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
+/*Flex Responsive */
+@media screen and (max-width: 700px) {
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
